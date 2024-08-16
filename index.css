@@ -1,0 +1,614 @@
+.netflix-bg-container {
+    background-image: url("https://res.cloudinary.com/dpeqiwvxt/image/upload/t_Banner 16:9/v1723698116/netflix_background_image_rjuyll.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.netflix-bg-container .main {
+    opacity: 0.79;
+    background-color: #000;
+    height: 100vh;
+}
+
+nav img {
+    height: 120px;
+    width: 250px;
+    z-index: 10;
+    top: 0;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select-option-container {
+    height: 6vh;
+    width: 11vw;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+
+}
+
+.option-item {
+    color: white;
+    font-size: 10px;
+}
+
+.sign-in-button {
+    margin-left: 20px;
+    background-color: #c70404;
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    border-style: none;
+    height: 5vh;
+    width: 12vw;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.banner-description {
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+}
+
+.banner-description h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.banner-description h2 {
+    font-weight: 100;
+    font-size: 22px;
+    margin-top: 0px;
+    color: #e8e8e8;
+    text-align: center;
+}
+
+.banner-description div input {
+    height: 6vh;
+    background-color: transparent;
+    border: 2px #878787 solid;
+    border-radius: 5px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.banner-description div button {
+    height: 6vh;
+    border-style: none;
+    background-color: #c70404;
+    border-radius: 5px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+#tvPage div {
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+.tv-img-bg-container {
+    background-image: url("https://res.cloudinary.com/dpeqiwvxt/image/upload/t_Banner 16:9/v1723707726/netflix_tv_w5tmdl.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.tv-img-bg-container video {
+    height: 50vh;
+    width: 50vw;
+}
+
+#tvPage div div {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#tvPage div h1 {
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+#tvPage div h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#tvPage div img {
+    height: 40vh;
+    width: 50vw;
+    background-size: cover;
+}
+
+.line {
+    background-color: #363636;
+    height: 13px;
+    border: none;
+}
+
+#mobilePage div {
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    font-family: "Roboto";
+}
+
+#mobilePage div div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#mobilePage .mobile-background-img-container {
+    background-image: url("https://res.cloudinary.com/dpeqiwvxt/image/upload/t_Banner 16:9/v1723708360/netflix_mobile_xbk8uk.jpg");
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    margin-right: 30px;
+}
+
+#mobilePage div h1 {
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+#mobilePage div h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#screenPage div {
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    font-family: "Roboto";
+}
+
+#screenPage img {
+    height: 60%;
+    width: 60%;
+}
+
+#screenPage div div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#screenPage div h1 {
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+#screenPage div h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#kidsPage div {
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto";
+}
+
+#kidsPage div div {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#kidsPage div h1 {
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+#kidsPage div h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#kidsPage div img {
+    height: 40vh;
+    width: 50vw;
+    background-size: cover;
+}
+
+#questionsPage div {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto";
+    padding-bottom: 50px;
+}
+
+#questionsPage div h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+#questionsPage div ul li {
+    background-color: #5c5c5c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 11vh;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#questionsPage div ul li:hover {
+    opacity: 0.56;
+}
+
+#questionsPage div ul li h1 {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+#questionsPage div ul li p {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#questionsPage .questionsPage-email-signin-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#questionsPage .questionsPage-email-signin-button-container input {
+    height: 6vh;
+    background-color: transparent;
+    border: 2px #878787 solid;
+    border-radius: 5px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+#questionsPage .questionsPage-email-signin-button-container button {
+    height: 6vh;
+    border-style: none;
+    background-color: #c70404;
+    border-radius: 5px;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+#footerPage div {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Roboto";
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#footerPage div ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+#footerPage div ul li {
+    margin: 10px;
+    width: 130px;
+    font-size: 12px;
+    color: white;
+    text-decoration-color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav img {
+        height: 100px;
+        width: 180px;
+    }
+
+    .sign-in-button {
+        margin-left: 5px;
+        background-color: red;
+        color: white;
+        font-size: 10px;
+        font-weight: 300;
+        border-style: none;
+        height: 4vh;
+        width: 15vw;
+    }
+
+    .select-option-container {
+        height: 4vh;
+        width: 16vw;
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 700;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        border: 1px solid;
+
+    }
+
+    .banner-description h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .banner-description h2 {
+        font-weight: 100;
+        font-size: 14px;
+        margin-top: 0px;
+        color: #e8e8e8;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .banner-description div input {
+        height: 4vh;
+        font-weight: 500;
+        width: 40vw;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .banner-description div button {
+        height: 4vh;
+        width: 25vw;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    #tvPage div {
+        background-color: #000;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Roboto";
+    }
+
+    #tvPage div div {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #tvPage div h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    #tvPage div h3 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #tvPage div img {
+        height: 20vh;
+        width: 40vw;
+        background-size: cover;
+    }
+
+    #mobilePage div {
+        height: 50vh;
+        width: 100%;
+    }
+
+    #mobilePage div div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #mobilePage .mobile-background-img-container {
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        margin-right: 20px;
+    }
+
+    #mobilePage div h1 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    #mobilePage div h3 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #kidsPage div {
+        background-color: #000;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Roboto";
+    }
+
+    #kidsPage div div {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #kidsPage div h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    #kidsPage div h3 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #kidsPage div img {
+        height: 20vh;
+        width: 40vw;
+        background-size: cover;
+    }
+
+    #questionsPage div h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #questionsPage div p {
+        text-align: center;
+    }
+
+    #questionsPage div ul li {
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 8vh;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    #questionsPage div ul li h1 {
+        font-weight: 200;
+        font-size: 16px;
+    }
+
+    #questionsPage div ul li p {
+        font-weight: 700;
+        font-size: 12px;
+
+    }
+
+    #questionsPage .questionsPage-email-signin-button-container input {
+        height: 6vh;
+        width: 40%;
+        padding-left: 10px;
+        margin-right: 20px;
+        font-weight: bold;
+        font-size: 12px;
+        color: white;
+    }
+
+    #questionsPage .questionsPage-email-signin-button-container button {
+        height: 6vh;
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 10px;
+        color: white;
+        width: 20%;
+    }
+
+    #footerPage div {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    #footerPage div ul li {
+        margin: 3px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    #screenPage div {
+
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        font-family: "Roboto";
+    }
+
+    #screenPage img {
+
+        height: 40%;
+        width: 40%;
+    }
+
+    #screenPage div h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    #screenPage div h3 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
